@@ -6,3 +6,8 @@
     margin-top: 10px;
 }
 
+.table-product th{
+    min-width: 70px;
+    padding: 0.5rem;
+  }
+

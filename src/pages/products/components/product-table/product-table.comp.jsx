@@ -8,7 +8,7 @@ const ProductTable = () => {
     return (
         <div className="product-table-container">
 
-            <table>
+            <table className="table-product">
                 <thead>
                     <tr>
                         <th>Name</th>

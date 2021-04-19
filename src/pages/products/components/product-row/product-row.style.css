@@ -1,7 +1,7 @@
 .product-row-container{
     width: 90%;
     margin: 0 auto;
-    min-height: 35px;
+    min-height: 30px;
     border: 1px solid red;
     margin-top: 5px;
 }
