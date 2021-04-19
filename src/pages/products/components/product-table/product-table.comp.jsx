@@ -7,9 +7,19 @@ import ProductRow from '../product-row/product-row.comp';
 const ProductTable = () => {
     return (
         <div className="product-table-container">
-            <ProductCategoryRow/>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+            </table>
+            <ProductCategoryRow/> 
             <ProductRow/>
         </div>
+
     );
     
 }
